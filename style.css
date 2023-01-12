@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.container{
+    width: 30rem;
+    background: antiquewhite;
+    height: 93%;
+    margin: auto;
+}
+.number{
+  padding: 1rem;
+  border: 2px solid;
+  font-size: xx-large;
+  margin: 1rem;
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+}
+.numberContainer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+#input{
+  width: 23rem;
+    margin: 2rem;
+  text-align-last: end;
+    height: 6rem;
+    padding: 1rem;
+    font-size: 2rem;
+}

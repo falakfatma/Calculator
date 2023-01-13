@@ -2,10 +2,11 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
 .container{
     width: 30rem;
-    background: antiquewhite;
-    height: 93%;
+    background: #c6aa86;
+    height: 100%;
     margin: auto;
 }
 .number{
@@ -15,8 +16,10 @@ html, body {
   margin: 1rem;
   text-align: center;
   width: 2rem;
+  cursor: pointer;
   height: 2rem;
 }
+
 .numberContainer{
   display: flex;
   flex-wrap: wrap;
